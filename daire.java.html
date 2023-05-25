@@ -1,0 +1,37 @@
+<html>
+<head>
+<title>daire.java</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #cc7832;}
+.s1 { color: #a9b7c6;}
+.s2 { color: #6897bb;}
+.s3 { color: #6a8759;}
+</style>
+</head>
+<body bgcolor="#2b2b2b">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+daire.java</font>
+</center></td></tr></table>
+<pre><span class="s0">import </span><span class="s1">java.util.Scanner</span><span class="s0">;</span>
+<span class="s0">public class </span><span class="s1">daire {</span>
+    <span class="s0">public static void </span><span class="s1">main(String[] args) {</span>
+        <span class="s1">Scanner inp = </span><span class="s0">new </span><span class="s1">Scanner(System.in)</span><span class="s0">;</span>
+
+        <span class="s0">int </span><span class="s1">r</span><span class="s0">;</span>
+        <span class="s0">double </span><span class="s1">pi = </span><span class="s2">3.14</span><span class="s0">;</span>
+
+        <span class="s1">System.out.print(</span><span class="s3">&quot;lütfen Dairenin yarı çapını giriniz :&quot;</span><span class="s1">)</span><span class="s0">;</span>
+        <span class="s1">r  = inp.nextInt()</span><span class="s0">;</span>
+
+        <span class="s0">double </span><span class="s1">cevre = pi * r *r</span><span class="s0">;</span>
+        <span class="s0">double </span><span class="s1">alan = </span><span class="s2">2 </span><span class="s1">* pi * r</span><span class="s0">;</span>
+        <span class="s1">System.out.println(</span><span class="s3">&quot;Dairenin alanı : &quot; </span><span class="s1">+ cevre)</span><span class="s0">;</span>
+        <span class="s1">System.out.println(</span><span class="s3">&quot;Dairenin çevresi :&quot;</span><span class="s1">+ alan)</span><span class="s0">;</span>
+    <span class="s1">}</span>
+<span class="s1">}</span>
+</pre>
+</body>
+</html>
